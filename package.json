@@ -1,7 +1,7 @@
 {
     "name": "vscode-opennewinstance",
-    "displayName": "Open Folder Context Menus for VS Code",
-    "description": "Quickly open a new instance of VS Code from the Explorer",
+    "displayName": "Open Folder Context Menus for VS Code & Cursor",
+    "description": "Quickly open a new instance of VS Code/Cursor from the Explorer (Cursor compatible)",
     "version": "0.0.15",
     "author": "Chris Dias",
     "publisher": "chrisdias",
@@ -10,12 +10,12 @@
         "theme": "dark"
     },
     "icon": "images/Open_file.png",
-    "homepage": "https://github.com/chrisdias/vscode-opennewinstance/blob/master/README.md",
+    "homepage": "https://github.com/epodak/vscode-opennewinstance/blob/main/README.md",
     "repository": {
-        "url": "https://vscode.dev/github/chrisdias/vscode-opennewinstance"
+        "url": "https://github.com/epodak/vscode-opennewinstance"
     },
     "bugs": {
-        "url": "https://github.com/chrisdias/vscode-opennewinstance/issues"
+        "url": "https://github.com/epodak/vscode-opennewinstance/issues"
     },
     "engines": {
         "vscode": "^1.80.0"
