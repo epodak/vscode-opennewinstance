@@ -7,11 +7,12 @@ import * as vscode from 'vscode';
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-    const regex = /Visual Studio Code/;
-    if (!regex.test(vscode.env.appName)) {
-        vscode.window.showErrorMessage("This extension can only be used with Visual Studio Code. Using it in any other product could cause unexpected behavior, performance, or security issues.", { modal: true });
-        return;
-    }
+    // 移除应用名称检查限制，允许在Cursor等基于VS Code的编辑器中使用
+    // const regex = /Visual Studio Code/;
+    // if (!regex.test(vscode.env.appName)) {
+    //     vscode.window.showErrorMessage("This extension can only be used with Visual Studio Code. Using it in any other product could cause unexpected behavior, performance, or security issues.", { modal: true });
+    //     return;
+    // }
 
     // The explorer/context menu contribution receives the URI to the file/folder
     const cmd1 = vscode.commands.registerCommand('extension.openNewInstance', (e: vscode.Uri) => {
